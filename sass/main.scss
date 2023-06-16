@@ -1,0 +1,27 @@
+@import "node_modules/modern-normalize/modern-normalize.css";
+@import url('https://fonts.googleapis.com/css2?family=DM+Sans:wght@500;700&family=Titan+One&display=swap');
+@import "./components/about";
+@import "./components/advantages";
+
+:root{
+    --primery-text-color: #000000;
+    --title-text-color: #D41443;
+    --accent-color: #FFA5BA;;
+    --primary-white-color: #ffffff;
+    --second-text: #907E82;
+    --background: #FFF5F6;
+    --hover-button: #ECEBEB;
+}
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+.container {
+    width: 1200px;
+    padding: 0 15px;
+    margin: auto;
+}
+li{
+    list-style-type: none;
+}
