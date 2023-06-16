@@ -1,0 +1,34 @@
+.section--advantages{
+    background-color: var(--background);
+    padding-top: 40px;
+    padding-bottom: 182px;
+}
+.ul__section-advantages{
+    display: flex;
+    gap: 115px;
+}
+.p--number-advantages{
+    font-family: 'Titan One', cursive;
+    font-weight: 400;
+    font-size: 58px;
+    letter-spacing: 0.04em;
+    line-height: 1.145;
+    color: var(--title-text-color);
+    padding-bottom: 16px;
+}
+.p--advantages{
+    font-family: 'DM Sans', sans-serif;
+    font-weight: 700;
+    font-size: 16px;
+    letter-spacing: 0.02em;
+    line-height: 1.76;
+    color: var(--primery-text-color);
+}
+.icon{
+    width: 50px;
+    height: 50px;
+    fill: var(--accent-color);
+}
+.div__advantages--svg{
+    padding-bottom: 40px;
+}
